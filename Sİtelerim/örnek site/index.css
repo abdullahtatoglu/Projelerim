@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box11{
+    position: sticky;
+    top: 0;
+    width: 20rem;
+    height: 10rem;
+    background-color:  teal;
+   
+}
+#box22{
+    position: sticky;
+    width: 20rem;
+    height: 10rem;
+    background-color: tomato;
+    top: 0;
+}
+#box1{
+    width: 20rem;
+    height: 40rem;
+    border: tomato solid 1px;
+}
+#box2{
+    width: 20rem;
+    height: 200rem;
+    border: teal solid 1px;
+}

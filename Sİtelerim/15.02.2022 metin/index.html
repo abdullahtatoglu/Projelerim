@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>New York Times</nav>
+    <div style="display: flex;justify-content: center; align-items: center;">
+        <button id="listele" onclick="listele()">Bütün haberleri listele</button>
+    </div>
+    <div style="display: flex;justify-content: center; align-items: center;">
+        <p>İçeriğe göre sorgulama</p>
+        <input type="text" placeholder="anahtar kelimeyi giriniz" id="anahtarkelime">
+        <button id="gönder" onclick="ara()">Ara</button>
+    </div>
+    <div style="display: flex;justify-content: center; align-items: center;">
+        <p>Tarihe göre sorgulama</p>
+        <input type="text" placeholder="anahtar kelimeyi giriniz" id="anahtartarih">
+        <button id="gönder" onclick="ara1()">Ara</button>
+    </div>
+    
+    <div id="container">
+        
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

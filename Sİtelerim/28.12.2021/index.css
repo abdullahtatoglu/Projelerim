@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;   
+}
+#container{
+    width: 60rem;
+    margin: auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+    border: 1px solid rgba(49, 42, 42, 0.781);
+}
+#siyah{
+    background-color: rgba(0, 0, 0, 0.61);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+#sayfa1{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+#for{
+    border-bottom: 1px solid rgba(49, 42, 42, 0.781);
+    user-select: none;
+}
+#for_alt{
+    border-bottom: 1px solid rgba(49, 42, 42, 0.781);
+    height: 15rem;
+    display: none
+}
+#while{
+    user-select: none;
+    border-bottom: 1px solid rgba(49, 42, 42, 0.781);
+}
+#while_alt{
+    height: 15rem;
+    display: none;
+}

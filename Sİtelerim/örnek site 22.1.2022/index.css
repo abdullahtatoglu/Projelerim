@@ -1,0 +1,30 @@
+*{
+    scrollbar-color: red;
+    scroll-margin: 1vw;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box1::before{
+    display: block;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    margin: 2vw;
+    border-radius: 20px;
+    color: white;
+    padding: 1vw;
+    transition: all ease-in-out 300ms;
+}
+#box1::after{
+    display: block;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    margin: 2vw;
+    border-radius: 20px;
+    color: white;
+    padding: 1vw;
+    transition: all ease-in-out 300ms;
+}

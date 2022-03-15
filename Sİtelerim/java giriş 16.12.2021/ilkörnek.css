@@ -1,0 +1,7 @@
+#prg2{
+    display: none;
+}
+body{
+    background: linear-gradient(1deg,black,yellow);
+    min-height: 100vh;
+}

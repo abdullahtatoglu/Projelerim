@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 2vw;
+    background-color: rgb(226, 224, 224);
+    font-size: large;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+}
+.stil{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 224, 224);
+    color: black;
+}
+.hiza{
+    text-align: right;
+}
+
+#listele{
+    width: 200px;
+    height: 70px;
+    padding: 1vw;
+    font-size: large;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 1vw;
+    position: relative;
+    top: 10px;
+}
+#gönder{
+    width: 200px;
+    height: 70px;
+    padding: 1vw;
+    font-size: large;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
+#anahtarkelime{
+    width: 300px;
+    height: 70px;
+    padding: 1vw;
+    font-size: large;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: 1vw 1vw;
+}
+#anahtartarih{
+    width: 300px;
+    height: 70px;
+    padding: 1vw;
+    font-size: large;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0 1vw;
+}

@@ -1,0 +1,11 @@
+#ust{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+button{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}

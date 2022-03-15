@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5vw 8vw;
+}
+.simge1 a:hover{
+    color: pink;
+    transition: 300ms;
+}
+.simge1{
+    display: inline-block;
+}
+.simge1 a{
+    display: inline-block;
+    margin-right: 0.5vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#bolum1 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(255, 192, 203, 0.445);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#bolum1 nav h1{
+    font-size: 1.8vw;
+}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    margin-right: 1vw;
+    position: relative;
+}
+#menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 2vw 1vw;
+}
+#menu li a:hover{
+    color: pink;
+    transition: 300ms;
+}
+#menu ul {
+    display: none;
+    position: absolute;
+}
+#menu li:hover ul{
+    display: block;
+}
+#menu ul a{
+    background-color: rgba(0,0,0,0.5);
+    padding: 1vw 2vw;
+    width: 15vw;
+}
+#menu ul a:hover{
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+
+#bolum1{
+    background-image: url(anime-girl-going-to-school-z2-1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 9/4;
+    color: rgb(231, 231, 231);
+}
+#bolum1 div{
+    padding: 10vw;
+}
+#bolum1 div h1{
+    margin: 0.5vw 0;
+    font-size: 2vw;
+}
+#bolum1 div h5{
+    font-size: 1vw;
+    margin: 00.8vw 0;
+    padding: 0.5vw;
+    background-color: rgba(255, 192, 203, 0.616);
+    display: inline-block;
+    border-radius: 20px;
+}
+#bolum1 div p{
+    font-size: 1.2vw;
+}
+#bolum1 div h5:hover{
+    background-color: rgba(221, 166, 175, 0.603);
+    transition: 500ms;
+    cursor: pointer;
+}
+#bolum1 div h4{
+    font-size: 1vw;
+}
+#bolum12ara{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -110px;
+    color: white;
+}
+article{
+    text-align: center;
+    background-color: rgb(255, 192, 203);
+    border-radius: 30px;
+    padding: 1vw 2vw;
+    margin: 0 1vw;
+    background-image: url(penbiş.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article h2{
+    margin: 0.5vw;
+}
+#bolum12ara i{
+    font-size: 2vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+}
+#bolum2{
+    background-image: url(WhatsApp\ Image\ 2021-12-14\ at\ 12.10.20.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bolum21{
+    text-align: center;
+    border-bottom: white 1px solid;
+    color: white;
+    width: 75%;
+    margin: 0 13vw ;
+}
+#bolum21 h4{
+    margin-bottom: 1vw;
+}
+#bolum211{
+    padding: 2vw;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 5vw;
+}
+#bolum210{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vw;
+}
+#bolum211 h2{
+    margin-bottom: 2vw;
+}
+#bolum211 p{
+    margin: 1vw 0;
+    font-size: 1vw;
+}
+#bolum211 h4{
+    margin:2vw 0 1vw 0;
+    background-color: pink;
+    padding: 1vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#bolum212s{
+    background-color: white;
+    border-radius: 20px;
+}
+#res{
+    background-image: url(meeting-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 16/9;
+}
+#res p{
+    padding: 0.3vw;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0.5vw;
+}
+#bolum212{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+}

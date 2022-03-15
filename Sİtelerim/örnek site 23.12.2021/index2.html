@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="sayfa1">
+        <!--
+        <h1>Hoşgeldiniz</h1>
+        <h2>Siteye giriş yapmak için kullanıcı adı ve şifreyi giriniz.</h2>
+        -->
+        <input type="text" id="name" placeholder="Kullanıcı Adı"> <br>
+        <input type="password" id="password" placeholder="Şifre"> <br> <br> <br>
+        <a onclick="button1()" id="button1"><i class="fas fa-arrow-right"></i></a>
+        <h4 id="yanlıs"> </h4>
+        <i id="exit1" class="fal fa-times" onclick="sayfa1kapat()"></i>
+    </div>
+    <div id="sayfa1ac">
+        <a  onclick="sayfa1ac()">Giriş Yap</a>
+    </div>
+    <div id="sayfa2ac">
+        <a  onclick="sayfa2ac()">Kayıt Ol</a>
+    </div>
+    <div id="sayfa2">
+        <div id="yenikullanici">
+            <input type="text" id="yeniad" placeholder="Adınız">
+            <input type="email" id="yeniemail" placeholder="Gmail Adresiniz">
+            <input type="text" id="yenikulad" placeholder="Kullanıcı Adınız">
+            <input type="password" id="yeniparola" placeholder="Parolanız">
+        </div>
+        <a onclick="button2()" id="button2"><i class="fas fa-arrow-right"></i> </a>
+        <i id="exit2" class="fal fa-times" onclick="sayfa2kapat()"></i>
+    </div>
+</div>
+    <script src="index2.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#alt{
+    width: 35%;
+    outline: 1px golde;
+}
+p{
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    display: inline-block;
+}

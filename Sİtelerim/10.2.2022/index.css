@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.kutu{
+    margin: 2vw;
+    padding: 1vw;
+    width: 25%;
+    background-color: lightblue;
+    color: white;
+}
+.button{
+    margin: 2vw;
+    padding: 1vw;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    color: blueviolet;
+    padding: 1vw;
+    font-size: 2vw;
+}

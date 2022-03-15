@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 90, 0.89);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color: white;
+    z-index: 100;
+}
+#menu{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    position: relative;
+    padding: 1vw;
+}
+#menu li a{
+    color: white;
+    padding:10px 20px;
+    text-decoration: none;
+}
+.li:hover{
+    outline: 1px solid rgba(245,164,37,255);
+    transition: 300ms all ease-in;
+}
+.li1:hover{
+    color: rgba(245,164,37,255);
+    transition: 300ms all ease-in;
+}
+#menu ul{
+    display: none;
+    position: absolute;
+}
+#menu ul li{
+    background-color: rgba(0, 0, 90, 0.89);
+}
+#menu li:hover ul{
+    display: block;
+}
+#bolum1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bolum3foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 5/2;
+    position: relative;
+    color: white;
+}
+.li1{
+    width: 9rem;
+}
+#bolum1 h1{
+    padding: 1vw 0;
+    font-size: 4vw;
+}
+#bolum1 h3{
+    background-color: rgba(245,164,37,255);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav h1{
+    font-size: 30px;
+    margin: 20px 0 20px 35px;
+}
+#kutu2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+#kutu2 h4{
+    background-color: tomato;
+    padding: 2vw;
+    margin-left: 1vw;
+}
+

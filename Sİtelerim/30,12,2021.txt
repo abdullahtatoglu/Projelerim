@@ -1,0 +1,104 @@
+do while:
+kullanımı aşağıdaki gibidir.
+
+do while
+do{
+    çalıştırılacak
+    komutlar
+}while(şart);
+
+"for each" döngüsü
+bu konu dizilerle beraber kullanılacaktır.
+
+KARAR YAPILARI
+
+program içerisinde belli bir duruma göre karar verip işlem yapmaya yarayan yapılardır.
+
+1-"if" yapısı
+kullanımı aşağıdaki gibidir
+
+if(şart)
+{
+    yapılacak işlemler
+}
+
+eğer sıcaklık 10 derecenin altındaysa klimayı çalıştırınız.
+
+var temp=prompt("sıckalık giriniz");
+if(temp<10){
+    alert("klima açıldı..");
+
+}
+
+2-"if else" yapısı
+program içerisinde şartın yanlış olması durumunda da yapılacak bir işlem varsa if else yapısı kullanılır.
+
+var temp=prompt("sıckalık giriniz");
+if(temp<10){
+    alert("klima açıldı..");
+}
+else{
+    alert("klimaya gerek yok");
+}
+
+
+3- "else if" yapısı
+bir şartın birden fazla komutunu kontrol etmek için kullanılır.
+
+if(şart1)
+{
+
+}
+else if(şart1 değilse şart2)
+{
+
+}
+else if(şart2 değilse şart3)
+{
+
+}
+else(hiçbiri değilse)
+{
+    
+}
+
+örnek:
+var not=prompt("notuuzu giriniz");
+if(not>=0 && not<=25){
+    alert("0 aldınız")
+}
+else if(not>=25 && not<=50){
+    alert("2 aldınız")
+}
+else if(not>=50 && not<=70){
+    alert("3 aldınız")
+}
+else if(not>=70 && not<=85){
+    alert("4 aldınız")
+}
+else if(not>=85 && not<=100){
+    alert("5 aldınız")
+}
+else{
+    alert("hatalı giriş")
+}
+
+4-"switch case" 
+else if yapısı ile aynıdır bir ifadenin birden fazla durumunu kontrol eder.
+kullanımı aşağıdaki gibidir.
+
+örnek: 
+bilgisiyar saatinden hangi gün olduğu öğrenilecek cumartesi ise dershane günü yazılacaktır.
+pazar ise dershane
+pazartesi ise okul başladı
+salı ise ne güzel web tasarım dersi
+çarşamba ise yaşasın emekciler
+perşembe ise web tasarım part 2 
+cuma ise cuma namazı
+gün bilgisi anılamamışsa işlemde hata var
+
+klavyeden bir sayı giilecektir bu sayı 5 in katı ise 100den 1 e kadar olan 5in katlarını geri geri yazdırınız.
+
+klavyeden bir takım ismi girilcektir göztepe ise ekrana renkleri sarı kırmızı yazılacaktır. kuruluşu 1925 yazılacaktır.
+beşiktaş ise arkaplan rengi siyah yazıda beyaz olacaktır kuruluşu 1903 yazılacaktır.
+hiçbiri değilse renkler kırmızı beyaz olsun 

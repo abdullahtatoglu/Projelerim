@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16vw 0;
+    align-items: center;
+}
+#sayfa1{
+    background-color: whitesmoke;
+    padding: 2vw;
+    border-radius: 20px;
+    position: relative;
+    left: -800px;
+    z-index: 100;
+}
+#sayfa2{
+    background-color: whitesmoke;
+    padding: 2vw 2vw 5vw 2vw;
+    border-radius: 20px;
+    position: relative;
+    right: -800px;
+    z-index: 100;
+}
+#sayfa1ac a{
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 2.5vw;
+    position: relative;
+    right: -80px;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#sayfa1ac a:hover{
+    background-color: rgba(204, 201, 201, 0.555);
+    transition: 300ms;
+}
+#sayfa2ac a{
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 2.5vw 2.8vw;
+    position: relative;
+    right: -80px;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#sayfa2ac a:hover{
+    background-color: rgba(204, 201, 201, 0.555);
+    transition: 300ms;
+}
+/*
+h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 30px;
+}
+*/
+#name{
+    width: 500px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+}
+#name:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#password{
+    width: 500px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(185, 185, 185, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+}
+#password:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#button1{
+    padding: 1vw;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(182, 182, 182, 0.555);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+h4{
+    color: red;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#yenikullanici{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#yeniad{
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#yeniad:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#yeniemail{
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+}
+#yeniemail:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#yenikulad{
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#yenikulad:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#yeniparola{
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.555);
+    padding: 1vw;
+    font-size: 20px;
+}
+#yeniparola:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#button2{
+    padding: 1vw;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(182, 182, 182, 0.555);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: rgba(216, 211, 211, 0.555);
+    transition: 300ms;
+}
+#exit1{
+    position: absolute;
+    padding: 1vw;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+#exit2{
+    position: absolute;
+    padding: 1vw;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}

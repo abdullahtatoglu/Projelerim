@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    padding: 1vh 1vw;
+    height: 300vh;
+}
+.giris{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    display: grid;
+   align-items: center;
+   justify-items: center;
+}
+#zalt{
+    background: url(pexels-yaroslava-borz-10153603.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+}
+#zust{
+    background: url(blob-scene-haikei2.svg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    mix-blend-mode: exclusion;
+}
+.gmenu{
+    position: absolute;
+    left: 0vw;
+    width: 7vw;
+    height: 50%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(17,17,17,.1);
+}
+.gmenu span{
+    font-size: 200%;
+    margin-bottom: 2vh;
+    color: white;
+    transition: all ease-in-out 400ms;
+}
+.gmenu span:hover{
+    color: green;
+}
+.gsayfa{
+    position: relative;
+    width:80vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-gap: 1vh 1vw;
+    background-color: transparent;
+    z-index:5;
+}
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.orta:nth-child(1){
+    position: relative;
+    left: 90%;
+    background: url(pexels-beytlik-9289070.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    transform: rotate(-5deg);
+    transition: all 400ms ease-in-out;
+
+}
+.orta:nth-child(1):hover{
+    z-index: 5;
+    transform: rotate(0deg);
+    transform: scale(1.5);
+}
+.orta:nth-child(2){
+    padding-left: 1vw;
+    background-color: rgba(17,17,17,.9);
+    color: gray;
+}
+
+.orta:nth-child(3){
+    position: relative;
+    left: -90%;
+    background: url(pexels-emmy-paw-5461428.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    transform: rotate(5deg);
+    transition: all 400ms ease-in-out;
+}
+.orta:nth-child(3):hover{
+    z-index: 5;
+    
+    transform: rotate(0deg);
+    transform: scale(1.5);
+}
+.header{
+    width: 100%;
+    position: sticky;
+    top: 2vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    border: #ea622a solid 1px;
+    padding: 0 1vw;
+    opacity: 1;
+    cursor: pointer;
+}
+.menu li{
+    list-style: none;
+    float: left;
+}
+.menu a{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    padding: 2vh 1vw;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 500ms ease-out;
+}
+.sag_menu{
+    position: absolute;
+    top: 0;
+    right: -45vw;
+    background-color: #ea622a;
+    z-index: 125;
+    height: 100vh;
+    width: 40vw;
+}
+.close{
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    font-size: 250%;
+    color: white;
+    cursor: pointer;
+    }
+    .mouse{
+        position: absolute;
+        top:20vh;
+        left:20vw;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        background: blueviolet;
+        display: grid;
+        place-items: center;
+        z-index: 500;
+    
+    }

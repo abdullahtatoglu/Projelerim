@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 2vw;
+    background-color: black;
+}
+#menu{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    position: relative;
+}
+#menu li ul{
+    display: none;
+    position: absolute;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: max-content;
+    display: block;
+    padding: 1vw;
+}
+#menu li:hover ul{
+    display: block;
+}
+#menu ul li a{
+    width: 100%;
+}
+#menu a:hover{
+    background-color: blue;
+}
+#menu a{
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 2vw;
+}
+#solmenu{
+    list-style: none;
+}
+#solmenu li{
+    position: relative;
+}
+#solmenu li a{
+    display: block;
+    width: 100%;
+    padding: 1vw;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-radius: 5px;
+}
+#solmenu li a{
+    
+}
+#solmenu ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    list-style: none;
+}
+#solmenu li:hover ul{
+    display: block;
+    margin-left: 100%;
+    margin-top: 0;
+}
+#solmenu ul a{
+    background-color: teal;
+    border-radius: 5px;
+}
+#bolum1{
+    text-align: center;
+    padding: 20vw 0;
+}

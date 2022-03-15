@@ -1,0 +1,28 @@
+Çok kullanılan java script kodları;
+
+Console.log
+girilen kodların çıktısının consola cıkmasına sağlar.
+
+document.write
+dökümana cıktı vermeyi sağlayan fonksiyon
+
+document.writeln 
+alt alta yazar.
+
+typeof
+değişskenlerin türlerini öğrenmek amacı ile kullanılır.
+örnek:
+var nesne1="merhaba";
+console.log(typeof nesne1)
+
+alert
+ekrana uyarı metni vermek için kullanılır.
+
+prompt
+kullanıcıdan veri almaya yarar.
+
+break 
+döngüden çıkmaya yarar.
+
+continue
+continue deyimi belirli bir koşul olduğunda yinelemeyi durdurur
